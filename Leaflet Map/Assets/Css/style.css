@@ -1,0 +1,151 @@
+
+
+.presentation{
+  background-image: url('../Img/fond2.jpg');
+  background-repeat: no-repeat;
+}
+
+.textImg{
+  display: flex;
+  justify-content: center;
+  background-color: #cbd4d3;
+  width: 60%;
+  margin: auto;
+  border-radius: 1%;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 9%;
+}
+
+h2{
+ text-align: center;
+}
+
+.moi{
+  border-radius: 1px;
+  margin: 10px;
+  width: auto;
+  height: auto;
+}
+
+.descrip{
+  margin-left: 30px;
+  padding-top: 1%;
+  width: 40%;
+}
+
+.textImg{
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+
+
+/*meteo*/
+
+.meteo{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 5%;
+
+}
+.container{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-weight: bold;
+}
+
+.box{
+  border: none;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+#city{
+  background-color: #338cb5;
+  display: flex;
+  align-items: center;
+
+}
+
+#temp{
+  background-color: #569aba;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#humidity{
+  background-color: #81b1c7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#wind{
+  background-color: #8a9493;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/*fin meteo*/
+
+/*map*/
+
+#mapid {
+   height: 600px;
+   margin-top: 3%;
+   margin-bottom: 5%;
+
+  }
+
+  /*fin map*/
+
+  /*MEDIA QUERIES*/
+
+  @media (max-width: 900px) {
+    .textImg{
+      display: flex;
+      justify-content: center;
+      background-color: #cbd4d3;
+      width:auto;
+      margin: auto;
+      border-radius: 1%;
+      text-align: center;
+    }
+
+    .moi {
+      display: none;
+    }
+
+    .descrip{
+      margin-left: 5px;
+      padding-top: auto;
+      width: auto;
+    }
+    .container{
+      width: auto;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .presentation{
+      background-size: 0 0;
+    }
+
+
+  }
